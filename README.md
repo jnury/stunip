@@ -8,18 +8,18 @@ Useful to check if you can reach a STUN server and what is the public IP present
 
 With the default STUN server (stun.l.google.com:19302):
 
-    ./stunip
+    > ./stunip
     123.45.67.89
 
 Or, in a Windows environment:
 
-    .\stunip.exe
+    > .\stunip.exe
     123.45.67.89
 
 Output will be the [XOR Mapped Address](https://datatracker.ietf.org/doc/html/draft-ietf-behave-rfc3489bis-02#section-10.2.12) returned by the STUN server when binding to it. This IP is the public IP address of your host (or your Internet router).
 
 With a custom STUN server:
 
-    ./stunip -server worldaz.turn.teams.microsoft.com:3478
+    > ./stunip -server worldaz.turn.teams.microsoft.com:3478
     123.45.67.89
 
