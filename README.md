@@ -16,7 +16,7 @@ Or, in a Windows environment:
     > .\stunip.exe
     123.45.67.89
 
-Output will be the [XOR Mapped Address](https://datatracker.ietf.org/doc/html/draft-ietf-behave-rfc3489bis-02#section-10.2.12) returned by the STUN server when binding to it. This IP is the public IP address of your host (or your Internet router).
+Output is the [XOR Mapped Address](https://datatracker.ietf.org/doc/html/draft-ietf-behave-rfc3489bis-02#section-10.2.12) returned by the STUN server when binding to it. This IP is the public IP address of your host (or your Internet router).
 
 With a custom STUN server:
 
